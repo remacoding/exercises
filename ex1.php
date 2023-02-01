@@ -1,7 +1,7 @@
 <?php
 $title = "Exercise 1";
 include "header.php" ?>
-    <h3>3.1 Write a simple PHP script to print your information (Name and your groupid).</h3>
+<h3>3.1 Write a simple PHP script to print your information (Name and your groupid).</h3>
 <?php
 echo "Reng Majer <br>";
 echo "BBCAP22";
@@ -13,7 +13,7 @@ echo "Hello world! My name is \"Reng\"";
 <h3>3.3 Current Date</h3>
 <?php echo date("d.m.Y")
 
-?>
+    ?>
 
 <h3>3.4 Variable in PHP</h3>
 <?php
@@ -22,7 +22,7 @@ echo "<h1>" . $title1 . "</h1>";
 ?>
 
 <h3>3.5 Tables and variables</h3>
-<?php 
+<?php
 $g1 = 5;
 $g2 = 4;
 $g3 = 5;
