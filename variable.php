@@ -15,7 +15,7 @@
             <input type="text" name="lname" required placeholder="Last name" class="form-control">
         </div>
         <div class="col">
-        Birth Date: <input type="date" name="bdate" required placeholder="Birth Date" class="form-control">
+        Birth Date: <input type="date" name="bdate" class="form-control">
         </div>
         <div class="col">
         Select fav Color: <input type="color" name="color" required placeholder="Select fav color" class="form-control">
