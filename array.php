@@ -12,7 +12,7 @@ for ($i = 0; $i < count($courses); $i++) {
 }
 
 ?>
-
+<br>
 <h2>2. The unset() function is used to remove element from the array. The var_dump() function is used to dump
     information about a variable. array_values() is an inbuilt function that returns all the values of an array and not
     the keys.
@@ -30,7 +30,7 @@ for ($i = 0; $i < count($courses1); $i++) {
 }
 ?>
 <br>
-<h2>Sort the following array
+<h2>3. Sort the following array
     $courses3=array("PHP", "HTML", "JavaScript", "CMS", "Project");
     a) ascending order sort by value
     b) ascending order sort by Key
