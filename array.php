@@ -71,6 +71,30 @@ foreach ($courses3 as $key => $val) {
     echo "$key = $val\n". "<br>";
 }
 ?>
+<br>
+<h2>4. Change the following array's all values to upper case. <br>  $courses4=array("php", "html", "javascript", "cms", "project");
+ <h2>
+List all your favorite colors and their hexadecimal equivalents. (associative arrays)
+
+</h2> <br>
+
+<?php
+$courses4 = array("PHP", "HTML", "JavaScript", "CMS", "Project");
+for ($i = 0; $i < count($courses4); $i++) {
+    echo strtoupper($courses4[$i]). "<br>";
+}
+?>
+<br>
+<h2>
+5. List all your favorite colors and their hexadecimal equivalents. (associative arrays)
+</h2> <br>
+<?php
+echo hexdec("red") . "<br>";
+echo hexdec("blue") . "<br>";
+echo hexdec("green") . "<br>";
+echo hexdec("brown");
+?>
+
 
 
 <?php include "footer.php" ?>
