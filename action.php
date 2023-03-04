@@ -1,4 +1,4 @@
-<?php include "header.php";
+<?php include "project9header.php";
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $dob = $_POST['bdate'];
@@ -12,4 +12,4 @@ Your favourite color is $color and your date of birth is $dob <h3>";
 
 
 
-<?php include "footer.php" ?>
+<?php include "project9footer.php" ?>
